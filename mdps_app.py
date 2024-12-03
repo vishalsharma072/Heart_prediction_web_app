@@ -45,4 +45,4 @@ with st.sidebar:
         else:
           return 'The Person has Heart Disease'
         
-    st.success(heart_diagnosis)
+    st.success(diagnosis)
