@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 
 #loading the Saved Model
-loaded_model = pickle.load(open('D:/Project/Model/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 input_data = (1.3,25,65)
 
