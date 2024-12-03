@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading the Saved Model
-loaded_model = pickle.load(open('D:/Project/Model/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #creating a function 
 def heart_prediction(input_data):
