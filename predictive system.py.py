@@ -8,7 +8,7 @@ import numpy as np
 import pickle 
 
 #loading the saved model
-loaded_model = pickle.load(open('C:/Users/visha/Desktop/ML project/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 input_data = (1.3,25,65)
 
