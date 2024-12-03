@@ -39,7 +39,7 @@ with st.sidebar:
           
           #creating a button for prediction 
     if st.button('Heart Disease Test Result'):
-            diagnosis = heart_prediction([serum_creatinine, ejection_fraction, age])
+            diagnosis = loaded_model.predict([serum_creatinine, ejection_fraction, age])
             if (prediction[0]== 0): 
     return 'The Person does not have a Heart Disease'
         else:
